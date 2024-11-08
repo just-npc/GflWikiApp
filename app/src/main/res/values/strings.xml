@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">GflWikiApp</string>
+
+    <string name="app_name">GflCharactersList</string>
+
+    <string name="faction">Faction: </string>
+    <string name="manufacturer">Manufacturer: </string>
+    <string name="wp_type">Weapon type:</string>
+    <string name="desc">this is a tdolls</string>
+    <string name="wa2000">Wa2000</string>
+    <string name="weapon_style_txt">weapon style:</string>
+    <string name="senjata">Assault Rifle</string>
+    <string name="factions">faction</string>
+    <string name="griffin_amp_kryuger"><![CDATA[Griffin & Kryuger]]></string>
+    <string name="_16lab">16LAB</string>
+    <string name="chara_desc_test">An elegant and gentle aura is always emitting from Springfield. Her design follows a general color palette of red, white, and blue (a nod to the American flag\'s primary colors).</string>
+    <string name="character_description">Character Description:</string>
+
+    <string-array name="tdolls_name">
+        <item>Springfield</item>
+        <item>Wa2000</item>
+        <item>M4a1</item>
+        <item>Ar-15</item>
+        <item>Px4 Storm</item>
+        <item>Suomi</item>
+        <item>Rpk-16</item>
+        <item>Spas-12</item>
+        <item>General liu</item>
+        <item>Hk416</item>
+    </string-array>
+
+    <integer-array name="tdolls_photo">
+        <item>@drawable/springfield</item>
+        <item>@drawable/wawa</item>
+        <item>@drawable/m4a1</item>
+        <item>@drawable/ar_15</item>
+        <item>@drawable/px4_storm</item>
+        <item>@drawable/suomi</item>
+        <item>@drawable/rpk16</item>
+        <item>@drawable/spas_12</item>
+        <item>@drawable/general_liu</item>
+        <item>@drawable/hk416</item>
+    </integer-array>
+
+    <string-array name="tdolls_weapon">
+        <item>Rifle</item>
+        <item>Rifle</item>
+        <item>Assault Rifle</item>
+        <item>Assault Rifle</item>
+        <item>Handgun</item>
+        <item>Smg</item>
+        <item>Machine Gun</item>
+        <item>Shotgun</item>
+        <item>Rifle</item>
+        <item>Assault Rifle</item>
+    </string-array>
+
+    <string-array name="tdolls_manufacturer">
+        <item>I.O.P</item>
+        <item>I.O.P</item>
+        <item>16LAB</item>
+        <item>16LAB</item>
+        <item>I.O.P</item>
+        <item>I.O.P</item>
+        <item>I.O.P</item>
+        <item>I.O.P</item>
+        <item>I.O.P</item>
+        <item>I.O.P</item>
+    </string-array>
+
+    <string-array name="tdolls_faction">
+        <item>Griffin &amp; Kryuger</item>
+        <item>Griffin &amp; Kryuger</item>
+        <item>AR Team, Griffin &amp; Kryuger, DEFY</item>
+        <item>AR Team, Griffin &amp; Kryuger, DEFY</item>
+        <item>Griffin &amp; Kryuger</item>
+        <item>Griffin &amp; Kryuger</item>
+        <item>DEFY</item>
+        <item>Griffin &amp; Kryuger</item>
+        <item>Griffin &amp; Kryuger</item>
+        <item>Squad 404</item>
+    </string-array>
+
+
+</resources>
