@@ -8,11 +8,21 @@
     <string name="wa2000">Wa2000</string>
     <string name="weapon_style_txt">weapon style:</string>
     <string name="senjata">Assault Rifle</string>
-    <string name="factions">faction</string>
+    <string name="factions">faction:</string>
     <string name="griffin_amp_kryuger"><![CDATA[Griffin & Kryuger]]></string>
     <string name="_16lab">16LAB</string>
     <string name="chara_desc_test">An elegant and gentle aura is always emitting from Springfield. Her design follows a general color palette of red, white, and blue (a nod to the American flag\'s primary colors).</string>
     <string name="character_description">Character Description:</string>
+    <string name="tdoll_name">Tdoll Name:</string>
+    <string name="tiles_txt">tiles</string>
+    <string name="wp_affect">Affects Handgun</string>
+    <string name="tdoll_tiles_effect">Reduce skill cooldown by 15%</string>
+    <string name="skill">Skill</string>
+    <string name="apalah">Begin charging after skill cooldown ends, gaining 1 charge stack every second, up to a maximum of 5 stacks. When skill is used, aim for 1 second, then deal 1.8 ~ 3x damage to the furthest enemy based on the current number of charge stacks. All stacks will be consumed on skill use.</string>
+    <string name="skills_name">Designated Shot</string>
+    <string name="skill_duration">15s cooldown, 5s initial cooldown</string>
+
+    <string name="character_design">Character Design</string>
 
     <string-array name="tdolls_name">
         <item>Springfield</item>
@@ -39,6 +49,11 @@
         <item>@drawable/general_liu</item>
         <item>@drawable/hk416</item>
     </integer-array>
+
+    <!--  TODO: jangan lupa nambahin ini nanti ama tdoll tiles ama nama skill dan waktu skill -->
+    <string-array name="tdolls_skills">
+        <item>aing maung</item>
+    </string-array>
 
     <string-array name="tdolls_weapon">
         <item>Rifle</item>
