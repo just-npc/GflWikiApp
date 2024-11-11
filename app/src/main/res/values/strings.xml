@@ -21,7 +21,7 @@
     <string name="apalah">Begin charging after skill cooldown ends, gaining 1 charge stack every second, up to a maximum of 5 stacks. When skill is used, aim for 1 second, then deal 1.8 ~ 3x damage to the furthest enemy based on the current number of charge stacks. All stacks will be consumed on skill use.</string>
     <string name="skills_name">Designated Shot</string>
     <string name="skill_duration">15s cooldown, 5s initial cooldown</string>
-
+    <string name="chara_design">An elegant and gentle aura is always emitting from Springfield. Her design follows a general color palette of red, white, and blue (a nod to the American flag\'s primary colors).</string>
     <string name="character_design">Character Design</string>
 
     <string-array name="tdolls_name">
@@ -50,9 +50,62 @@
         <item>@drawable/hk416</item>
     </integer-array>
 
-    <!--  TODO: jangan lupa nambahin ini nanti ama tdoll tiles ama nama skill dan waktu skill -->
     <string-array name="tdolls_skills">
         <item>aing maung</item>
+    </string-array>
+
+    <!--  TODO: jangan lupa nambahin ini nanti ama tdoll tiles ama nama skill dan waktu skill -->
+    <string-array name="tiles_affects">
+        <item>affects handguns\nReduce skill cooldown by15%</item>
+        <item>affects handguns\nReduce skill cooldown by18%</item>
+        <item>affects assault rifles\nIncreases damage by 15%\nIncreases critical hit rate by30%</item>
+        <item>affects submachine guns\nIncreases evasion by 12%\nIncreases rate of fire by10%</item>
+        <item>"""affects all guns\nIncreases Damage by 12%(x1) / 15%(x2) / 18%(x3) / 21%(x4) / 24%(x5)\nIncreases Accuracy by 30%(x1) / 37%(x2) / 45%(x3) / 52%(x4) / 60%(x5)"""</item>
+        <item>affects assault rifles\nIncreases rate of fire by15%\nIncreases accuracy by 30%</item>
+        <item>Affects submachine guns (SMG), assault rifles (AR) and shotguns (SG)\nIncrease damage by 12%\nIncrease armour by 18%</item>
+        <item>affects machine guns\nIncrease damage by 20%</item>
+        <item>affects handguns\nReduce skill cooldown by 18%</item>
+        <item>affects submachine guns\nIncreases damage by 40%</item>
+    </string-array>
+
+    <string-array name="skill_duration">
+        <item>11s cooldown, 5s initial cooldown</item>
+        <item>8s cooldown, 5s initial cooldown</item>
+        <item>16s cooldown, 4s initial cooldown</item>
+        <item>16s cooldown, 4s initial cooldown</item>
+        <item>12s cooldown, 6s initial cooldown</item>
+        <item>8s cooldown, 6s initial cooldown</item>
+        <item>18s cooldown, 8s initial cooldown</item>
+        <item>16s cooldown, 8s initial cooldown</item>
+        <item>1s cooldown, 1s initial cooldown</item>
+        <item>16s cooldown, 8s initial cooldown</item>
+    </string-array>
+
+    <string-array name="tdolls_skill">
+        <item>Begin charging after skill cooldown ends, gaining 1 charge stack every second, up to a maximum of 5 stacks. When skill is used, aim for 1 second, then deal 2.8 ~ 6x damage to the furthest enemy based on the current number of charge stacks. All stacks will be consumed on skill use.</item>
+        <item>Increases rate of fire by 75% for 5 second.</item>
+        <item>Increases damage by 70% for 10 seconds.</item>
+        <item>Increases rate of fire by 45% for 15 seconds.</item>
+        <item>Grants all T-dolls who are on her buff tiles increased critical damage by 50% at the cost of 20% critical rate, last for 8 seconds</item>
+        <item>Increases evasion by 150% for 5 seconds.</item>
+        <item>[Passive]: Once ammo in current clip is depleted, enters AR Mode, reducing own rate of fire by 40% while increasing own accuracy by 100% and movement speed by 150%. [Active]: Reloads and switches back to MG Mode. Reload time is a fixed 1 second and reloading clears all stat changes from AR Mode while increasing own damage by 40% for 5 seconds.</item>
+        <item>Increases damage by 120%, and increases the amount of targets hit per attack to 5 (overwrites the effect of Slugs), last for 8 seconds.</item>
+        <item>[Passive]: At the start of battle, summon 3 reinforcement T-Dolls with 3 dummy links each to the rear of the echelon. Each reinforcement has 5 HP per dummy link and inherits the following stats from General Liu; 35% damage, 60% rate of fire and 40% accuracy. The remaining stats and targeting mode are also the same as General Liu. [Active]: Activate the skill to switch between the following modes; [Rear-Focus (default)]: Reduces own rate of fire by 10% and increases own damage by 20% and targets the furthest enemy from self. [Vanguard-Focus]: Reduces own damage by 10% and increases own rate of fire by 20% and targets the nearest enemy from self.</item>
+        <item>Launches a grenade that deals 15x damage to enemies within a radius of 1.5 units.</item>
+    </string-array>
+
+    <string-array name="tdolls_description">
+        <item>"""An elegant and gentle aura is always emitting from Springfield. Her design follows a general color palette of red, white, and blue (a nod to the American flag\'s primary colors).
+        \nShe has green eyes and long brownish-orange hair, with sidelocks done up into hair rings and the remainder in separate twin tails tied with red, white, and blue stripped ribbons. She wears a blue blazer, patterned to resemble a military academy cadet parade uniform , but worn akin to a Revolutionary War uniform. An embroidered pattern similar to those found on a US Army Officer "special evening dress" can be seen on both ends of the blazer's sleeves. The blazer is held in place by a gold chain, tied on the second pair of buttons just above the chest. A white sash is slung over the blazer, on which also hangs a Turkish Ottoman M1903 Bayonet. A long red ribbon is tied at the back, partnered with a long skirt. Underneath, she wears a long-sleeved white shirt with a small red ribbon tied around the collar, a pair of white gloves, white trousers, and a pair of tall brown laced boots. The rifle she carries is the M1903A1 "C-Stock" variant."""</item>
+        <item>"""WA2000 is a T-Doll around 160cm of body height, long straight wine red hair and red coloured pupils.\nThe artist 多元菌 made comments on WA2000's character design on the official Girls' Frontline art book:\n"There are many German T-Dolls with the red/black colour combination, so I decided to try a different combo, I chose yellow/black."The square pattern on her shoulder are inspired from police uniforms, due to this weapon being primarily used by the police in real life."""</item>
+        <item>most normal tdoll person but in the end idk she can back to normal again or not</item>
+        <item>"""ST AR-15 is designed by the Concept Design Manager of MICA Team, LIN+. LIN+ commented on AR-15's design in the official artbook for Girls Frontline.\nAll four members of AR Team are sister guns derived from the original AR-15 designed by Eugene Stoner. When it came to designing her, a lot of reference were made to M4A1, whose design had already been finalized at the time by UmiNeko. Various design features such as a selectively dyed side fringe, sleeve logo, color palette, and various other elements.\nConsidering AR-15 is a more outgoing girl, her early drafts had more fashionable/flamboyant clothing designs. However, considering her role within the AR Team and the fact that excessively complex outfits can lead to a lack of deviation in future artworks, her outfit was simplified for the finalized design."""</item>
+        <item>blonde onee-san</item>
+        <item>The first character contributed to Girls Frontline by well-known character designer Anmi, Suomi features the typical Nordic blonde hair with blue eyes. The cloak she wears is in reference to the Finnish army uniform worn during the Winter War.</item>
+        <item>"""She gives people the impression of being a cheerful and talkative girl. She's very easy to get along with and being around her isn't stressful in the least. As others lower their guard around her, she often says surprising things, which leaves them startled. …The more time you spend with her, the more you'll come to see how she's different from the rest."""</item>
+        <item>"""SPAS-12 has red eyes and white hair done into pigtails. She wears a uniform consisting of a navy blue button-up shirt with detached sleeves and a red bow worn at the collar; a pleated, red miniskirt with "GIS" printed in white on one of the pleats; navy blue thigh-high stockings; and navy blue sneakers with red accents. She has a utility belt with four speedloaders attached; additional shotgun shells are kept in holders on her armour plates and shield. The name "Jerry Miculek"[2], a world-renowned speed shooter, is printed on her speedloaders.\nHer left shoulder guard has an emblem featuring a red cog with flames emerging from the top; the acronym "GIS" is overlaid on top of the cog. The emblem, with its flames, is a reference to the insignia of the Carabinieri[3], the national paramilitary force of Italy; while "GIS" refers directly to the Gruppo di Intervento Speciale, a special ops unit within the Carabinieri.[4] On the front of her extending shield is a logo closely resembling Franchi's logo. Closer to the bottom of the shield is the acronym "AWB" crossed out by a rectangular "no" sign, a reference to the SPAS-12's illegality under the Federal Assault Weapons Ban (AWB)."""</item>
+        <item>"""She's gentle and polite. She's also bad at communicating with others but this has unexpectedly led to her cultivating an air of mystery, making her one of the popular mentions on many online forums. She often looks at the sky by herself and has no battlefield experience, but she does her best to complete any missions she's given. Occasionally, she is known to hold complex emotions about the word "mass-produced". Money is no object to her and all the things she uses are extremely expensive."""</item>
+        <item>"""Artist NIXOO commented on the design of HK416 in the Official Girls' Frontline Art Book.\nHK416 is an improved model of the AR-15 developed by Heckler &amp; Koch for the US military market. As a result, she is somewhat related to the members of AR team."""</item>
     </string-array>
 
     <string-array name="tdolls_weapon">
